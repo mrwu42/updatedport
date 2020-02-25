@@ -1,17 +1,36 @@
+.html {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+}
 .footer{
     background-color: red;
     bottom: 0;
+    position: fixed;
+    min-width: 100%;
 
+}
+.container {
+    min-width: 100%;
+}
+.navbar-brand {
+    min-width: 100%;
+}
+.navbar {
+    margin-right: -20px;
 }
 
 body {
     background-color: grey;
+    position: relative;
+    min-height: 100%;
 }
 .two-toned-footer-color {
     /* Box-model */
     height: 6px;
     padding-top: 3px;
-  
+    width: 100%;
     /* Visual */
     background-color: #4aaaa5;
   }
+
